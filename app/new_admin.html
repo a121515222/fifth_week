@@ -1,0 +1,30 @@
+---
+title: new_admin
+layout: ./app/layout.ejs
+engine: ejs
+---
+<form action="" class="edit_admin" id="idEdit_adimin">
+    <h1>Edit Admin</h1>
+    <div class="login">
+        <h2>Account</h2>
+        <label for="name">Name<input id="name" type="text" value="Emir Wicks"></label><label for="email">E-mail<input id="email"type="text" value="emir.wicks@mail.com"></label>
+    </div>
+    <div class="verification">
+        <h2>Vericication</h2>
+        <span class="material-icons">
+            warning
+            </span> <label for="verification">Vericication<input id="verification" type="text"></label>
+    </div>
+    <div class="accessLevel">
+        <h2>Access Level</h2>
+        <input type="text" placeholder="Send Verification Mail">
+    </div>
+    <div class="custonAccess">
+        <input id="lecture" type="checkbox"><label for="lecture">Lecture</label>
+        <input id="coupon" type="checkbox"><label for="coupon">Coupon</label>
+        <input id="message" type="checkbox"><label for="message">Message</label>
+        <input id="setting" type="checkbox"><label for="setting">Setting</label>
+        <input id="taskmenu" type="checkbox"><label for="taskmenu">Task Menu</label>
+    </div>                    
+<button>Cancle</button><button>Update</button>
+</form> 

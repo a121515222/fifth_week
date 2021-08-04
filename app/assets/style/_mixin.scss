@@ -1,0 +1,9 @@
+@mixin picture_replace_text {
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+@mixin cleanMargim_and_Padding{
+    margin: 0;
+    padding: 0;
+}
