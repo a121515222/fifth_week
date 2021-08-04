@@ -1,9 +1,67 @@
----
-title: main_admin
-layout: ./app/layout.ejs
-engine: ejs
----
-<div class="main_admin_page">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>main_admin</title>
+ 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+  </style>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+</style>
+<body>
+  
+<div class="allPage_container  d-flex">
+
+  <div class="sidbar_group d-flex flex-column justify-content-between ">
+    <div class="fromgroup">
+      <div class="mainpageLogo mb-5 mt-4 ms-4">
+      <a  href="main-assignment.html" style="background: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/2b326fe971cd296bd54667a9b4a63c4b0f19fab3/week5/logo-ANSWER.svg')no-repeat;">main-assignment</a>
+      </div>
+      <ul class="sigbar list-unstyled ">
+
+        <li ><a href="#"><span class="material-icons">insert_chart_outlined</span>Dashboard</a></li>
+        <li><a href="#"><span class="material-icons">
+          question_answer
+          </span>Question</a></li>
+        <li><a href="#"><span class="material-icons">
+          assignment
+          </span>Assignment</a></li>
+        <li><a href="#"><span class="material-icons">
+          video_library
+          </span>Course</a></li>
+        <li><a href="main_admin.html"><span class="material-icons">
+          people
+          </span>Admin</a></li>
+        <li><a href="#"><span class="material-icons">
+          settings
+          </span>Settings</a></li>
+      </ul>
+    </div>
+    <div class="userinfo d-flex align-items-center mb-4 ms-4">
+      <div class="selfie me-4 ">
+        <img src="./assets/images/andy.jfif" alt="" class="userPicture">
+      </div>
+      <div class="user_name_and_info">
+        <h2>Andy Chen</h2>
+        <span>andy0401@mail.com</span>
+      </div>
+    </div> 
+  </div>
+  <div class="main_admin_page">
     <div class="main_adminHeader container mb-5 mt-4 pe-0 d-flex justify-content-between align-items-center">
         <div class="fromgroup d-flex align-items-center for_preventDefault">   
             <h1 class="me-5">Admin</h1>
@@ -386,3 +444,13 @@ engine: ejs
       </div>
     </div>
   </div>
+</div>
+
+ 
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/jQuery-3.6.0.min.js"></script>
+  <script src="./assets/js/all.js"></script>
+  <script src="./assets/js/fifth-week.js"></script>
+</body>
+
+</html>
