@@ -36,9 +36,9 @@ engine: ejs
     </div>
 
     <div class="assigntable container d-flex d-grid gap-3 ">
-            <div class="chapter_summary card rounded-0 border-0">
-                <ul class="list-unstyled list-group list-group-flush border">
-                    <li class="card-header">
+            <div class="chapter_summary card rounded-1 border-0">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action for_preventDefault linkto_first">
                         <div class="ch_and_time d-flex justify-content-between">
                             <h3>Chapter Assignment2</h3>
                             <sapn>4 hrs ago</sapn>
@@ -47,42 +47,48 @@ engine: ejs
                             <h2>Please check this file…</h2>
                             <span>Emily Wang</span>
                         </div>
-                    </li>
-                    <li class="list-group-item">
-                        <div class="ch_and_time d-flex justify-content-between">
-                            <h3>Emily Wang</h3>
-                            <sapn>Emily Wang</sapn>
-                        </div>
-                        <div class="massage_and_name d-flex justify-content-between">
-                            <h2>My Homework</h2>
-                            <span>My Homework</span>
-                        </div>
-                    </li>
-                    <li class="list-group-item">
-                        <div class="ch_and_time d-flex justify-content-between">
-                            <h3>Final Assignment</h3>
-                            <sapn>Final Assignment</sapn>
-                        </div>
-                        <div class="massage_and_name d-flex justify-content-between">
-                            <h2>Have a problem with this…</h2>
-                            <span>Tony Wei</span>
-                        </div>
-                    </li>
-                    <li class="list-group-item">
-                        <div class="ch_and_time d-flex justify-content-between">
-                            <h3>Final Assignment</h3>
-                            <sapn>19 hrs ago</sapn>
-                        </div>
-                        <div class="massage_and_name d-flex justify-content-between">
-                            <h2>Did I do it right?</h2>
-                            <span>Christina Lin</span>
-                        </div>
-                    </li>
-                </ul>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action for_preventDefault linkto_sececond"><div class="ch_and_time d-flex justify-content-between">
+                        <h3>Emily Wang</h3>
+                        <sapn>Emily Wang</sapn>
+                    </div>
+                    <div class="massage_and_name d-flex justify-content-between">
+                        <h2>My Homework</h2>
+                        <span>My Homework</span>
+                    </div>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action for_preventDefault linkto_third"><div class="ch_and_time d-flex justify-content-between">
+                        <h3>Final Assignment</h3>
+                        <sapn>Final Assignment</sapn>
+                    </div>
+                    <div class="massage_and_name d-flex justify-content-between">
+                        <h2>Have a problem with this…</h2>
+                        <span>Tony Wei</span>
+                    </div>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action for_preventDefault linkto_fourth"><div class="ch_and_time d-flex justify-content-between">
+                        <h3>Final Assignment</h3>
+                        <sapn>Final Assignment</sapn>
+                    </div>
+                    <div class="massage_and_name d-flex justify-content-between">
+                        <h2>Have a problem with this…</h2>
+                        <span>Tony Wei</span>
+                    </div>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action for_preventDefault"><div class="ch_and_time d-flex justify-content-between">
+                        <h3>Final Assignment</h3>
+                        <sapn>19 hrs ago</sapn>
+                    </div>
+                    <div class="massage_and_name d-flex justify-content-between">
+                        <h2>Did I do it right?</h2>
+                        <span>Christina Lin</span>
+                    </div>
+                    </a>
+                  </div>
             </div>
-            <div class="from_group">
-                <div class="chapter_detal card rounded-0 position-relative" >
-                    <ul class="list-group list-group-flush list-unstyled">
+            <div class="from_group position-relative">
+                <div class="chapter_detal card rounded-1 " >
+                    <ul class="  list-group list-group-flush list-unstyled">
                         <li class="card-header d-flex justify-content-between align-items-center">
                                 <div class="ch_and_massage">
                                     <h3>Chapter Assignment 2 / HTML&CSS</h3>
@@ -96,8 +102,8 @@ engine: ejs
                             </div>
                         </li>
                         <li class="list-group-item">
-                            <div class="from_group d-flex">
-                            <div class="selfie me-4 ">
+                            <div class="from_group d-flex mt-2">
+                            <div class="selfie me-4 mb-4 ">
                                 <img src="./assets/images/emily.jfif" alt="" class="userPicture">
                             </div>
                             <div class="user_name_and_info">
@@ -107,16 +113,18 @@ engine: ejs
                             </div>
                             <div class="massage_conent">
                             <p>Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the following code the height of the div is bigger than the height of the <span>img</span>  ? There is a gap below the image, but it doesn’t seems to be a padding/margin. What is the gap or extra space below image?</p>
-                            <button type="button" class="btn btn-outline-secondary rounded-0 d-flex align-items-center"><span class="material-icons me-1">
-                                attach_file
-                                </span>HW-2-David.zip</button>
+                                <a class=" btn btn-outline-secondary rounded-1 download d-flex align-items-center text-secondary" href="#" download="HW-2-David.zip" style="width: 11rem;">
+                                    <span class="material-icons me-1">
+                                        attach_file
+                                        </span>HW-2-David.zip
+                                </a>
                                 <hr>
                             </div>
-                            <div class="from_group d-flex">
-                                <div class="selfie me-4 ">
+                            <div class="from_group d-flex ">
+                                <div class="selfie me-4  ">
                                     <img src="./assets/images/andy.jfif" alt="" class="userPicture">
                                 </div>
-                                <div class="user_name_and_info">
+                                <div class="user_name_and_info mb-4">
                                     <h2>Andy Chen</h2>
                                     <span>13:24 AM (1 hours ago)</span>
                                 </div>
@@ -127,9 +135,8 @@ engine: ejs
                                     </div>
                         </li>
                     </ul>
-                    
-                    </div> 
-                    <div class="choosepageClick_and_button d-flex align-items-center mt-2 mb-5 justify-content-between">
+                </div> 
+                    <div class="choosepageClick_and_button d-flex align-items-center mt-2 mb-5 justify-content-between ">
                             <div class="fromgroup d-flex d-grid gap-3">
                             <a href="#">
                                 <span class="material-icons">
@@ -138,63 +145,25 @@ engine: ejs
                                 </span>
                             </a>
                             </div>
-                            <div class="fromgroup">
-                            <button type="button" class="btn btn-outline-success rounded-0 me-4">Mark as read</button>
-                            <button type="button" class="btn btn-success rounded-0 switch" >Reply</button>
+                            <div class="fromgroup ">
+                            <button type="button" class="btn btn-outline-success rounded-1 me-4">Mark as read</button>
+                            <button type="button" class="btn btn-success rounded-1 switch" >Reply</button>
                             </div>
+
+                            <div class="slide_page border card position-absolute buttom-0 start-0">
+                                <textarea class="text_editor" name="" id="editor"  placeholder="Reply an answer…"></textarea>
+                        
+                                    <div class="fromgroup d-flex justify-content-end main_page_button ">
+                                        <button type="button" class="btn btn-outline-success rounded-1 me-4 switch">Cancle</button>
+                                        <button type="button" class="btn btn-success rounded-1">Reply</button>
+                                    </div>
+                            </div>
+
+
+
+
                     </div> 
-                    <div class="slide_page border position-absolute ">
-                        <div class="slidePage_header d-flex align-items-center">
-                          <h2>Body Text</h2>
-                        <a href="#">
-                        <span class="material-icons">
-                            arrow_drop_down
-                        </span>
-                         </a>
-                         <a href="#">
-                        <span class="material-icons">
-                            format_bold
-                        </span>
-                        </a>
-                        <a href="#">
-                        <span class="material-icons">
-                            format_italic
-                        </span>
-                        </a>
-                        <a href="#">   
-                        <span class="material-icons">
-                            format_list_bulleted
-                        </span>
-                        </a>
-                        <a href="#">    
-                        <span class="material-icons">
-                            format_list_numbered
-                        </span>
-                        </a>
-                        <a href="#">   
-                        <span class="material-icons">
-                            image
-                        </span>
-                        </a>    
-                        <a href="#">   
-                        <span class="material-icons">
-                                link
-                        </span>
-                        </a> 
-                        <a href="#">    
-                        <span class="material-icons">
-                            code
-                        </span>
-                        </a>
-                        </div>
-                        <div class="slidePage_content d-flex flex-column justify-content-between">
-                            <span>Reply an answer…</span>
-                            <div class="fromgroup align-self-end main_page_button ">
-                                <button type="button" class="btn btn-outline-success rounded-0 me-4 switch">Cancle</button>
-                                <button type="button" class="btn btn-success rounded-0">Reply</button>
-                            </div>
-                        </div>
-                    </div>
+                   
             </div>
             
     </div>
@@ -202,4 +171,3 @@ engine: ejs
 </div>
 
 
-  

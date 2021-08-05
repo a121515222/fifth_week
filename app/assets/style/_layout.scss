@@ -3,7 +3,8 @@
     margin: 0 auto;
 }
 .sidbar_group{
-    width: 296px;
+    min-width: 200px;
+    min-height: 100vh;
     background: $backgroundGray;
 }
 .sigbar{
@@ -30,6 +31,15 @@
 .mainpageLogo{
      @include picture_replace_text;
     a{
+        height: 40px;
+    }
+}
+.userinfo{
+    .user_name_and_info{
+        padding-right: 80px;
+    }
+    .userPicture{
+        width: 40px;
         height: 40px;
     }
 }

@@ -11,7 +11,6 @@
 }
 .chapter_summary{
     width: 320px;
-
     .ch_and_time{
         span{
             color: $darkGray;
@@ -36,6 +35,12 @@
 }
 .massage_conent{
     margin-left: 64px;
+    a{ 
+        color: $darkGray;
+        &:hover,&:active{
+        color: $white !important;
+        }
+    }
 }
 .assignmentHeader{
     padding: 0;
@@ -43,33 +48,10 @@
 .slide_page{
     display: none;
     width:585px ;
+    .ck-editor__editable_inline{
+        min-height: 50vh;
+    }
     
-    top: 66%;
-    left: 50.2%;
-    .slidePage_header{
-        background: $backgroundGray;
-        h2{
-            margin: 18px 8px 18px 24px;
-        }
-        a{
-            display: flex;
-            align-items: center;
-        }
-        span{
-            margin-right: 30px;
-        }
-    }
-    .slidePage_content{
-        background: $white;
-        height: 250px;
-        .main_page_button{
-            margin-right: 16px;
-        }
-        span{
-            color: $gray;
-            margin-left: 24px;
-        }
-    }
 }
 .slide_page.active{
     display: block;
