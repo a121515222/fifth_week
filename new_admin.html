@@ -7,6 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>new_admin</title>
  
+  <script src="https://cdn.ckeditor.com/ckeditor5/29.0.0/classic/ckeditor.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -90,9 +91,17 @@
 
  
   <script src="./assets/js/vendors.js"></script>
-  <script src="./assets/js/jQuery-3.6.0.min.js"></script>
   <script src="./assets/js/all.js"></script>
-  <script src="./assets/js/fifth-week.js"></script>
+  <script>
+    ClassicEditor
+      .create( document.querySelector( '#editor' ) )
+      .then( editor => {
+      console.log( editor );
+    } )
+      .catch( error => {
+      console.error( error );
+    } );
+  </script>
 </body>
 
 </html>

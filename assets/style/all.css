@@ -11646,7 +11646,8 @@ h4, .h4 {
 }
 
 .sidbar_group {
-  width: 296px;
+  min-width: 200px;
+  min-height: 100vh;
   background: #F8F9FA;
 }
 
@@ -11693,6 +11694,15 @@ h4, .h4 {
   height: 40px;
 }
 
+.userinfo .user_name_and_info {
+  padding-right: 80px;
+}
+
+.userinfo .userPicture {
+  width: 40px;
+  height: 40px;
+}
+
 .mainpage {
   width: 984px;
   margin-left: 32px;
@@ -11732,6 +11742,14 @@ h4, .h4 {
   margin-left: 64px;
 }
 
+.massage_conent a {
+  color: #212529;
+}
+
+.massage_conent a:hover, .massage_conent a:active {
+  color: #fff !important;
+}
+
 .assignmentHeader {
   padding: 0;
 }
@@ -11739,43 +11757,10 @@ h4, .h4 {
 .slide_page {
   display: none;
   width: 585px;
-  top: 66%;
-  left: 50.2%;
 }
 
-.slide_page .slidePage_header {
-  background: #F8F9FA;
-}
-
-.slide_page .slidePage_header h2, .slide_page .slidePage_header .h2 {
-  margin: 18px 8px 18px 24px;
-}
-
-.slide_page .slidePage_header a {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.slide_page .slidePage_header span {
-  margin-right: 30px;
-}
-
-.slide_page .slidePage_content {
-  background: #fff;
-  height: 250px;
-}
-
-.slide_page .slidePage_content .main_page_button {
-  margin-right: 16px;
-}
-
-.slide_page .slidePage_content span {
-  color: #6C757D;
-  margin-left: 24px;
+.slide_page .ck-editor__editable_inline {
+  min-height: 50vh;
 }
 
 .slide_page.active {
