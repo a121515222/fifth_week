@@ -56,5 +56,12 @@
 .slide_page.active{
     display: block;
 }
+.col-5{
+    a{
+        &:hover,&:focus{
+            color: $backgroundGray;
+        }
+    }
+}
 
     
